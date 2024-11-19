@@ -1,4 +1,4 @@
- import requests
+import requests
 from config import API_URL
 
 def fetch_crypto_data():
@@ -6,4 +6,3 @@ def fetch_crypto_data():
     params = {"vs_currency": "usd", "order": "market_cap_desc", "per_page": 10}
     response = requests.get(url, params=params)
     return response.json()
-
