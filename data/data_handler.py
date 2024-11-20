@@ -1,4 +1,4 @@
- import requests
+import requests
 from config import API_URL
 
 def fetch_crypto_data():

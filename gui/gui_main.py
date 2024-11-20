@@ -1,4 +1,4 @@
- import tkinter as tk
+import tkinter as tk
 
 def create_main_window():
     root = tk.Tk()
